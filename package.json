@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/balsamiq-sans": "^4.2.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "flickity": "^2.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.1",
+    "react-flickity-component": "^3.6.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

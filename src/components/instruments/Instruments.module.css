@@ -1,0 +1,71 @@
+.Instruments {
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    /* width: 100%; */
+    /* background-image: url(./headerBackground.png); */
+    /* background-size:contain */
+    background: white;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: flex-start;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Instruments form{
+display: flex;
+}
+.Instruments input{
+    height: 27px;
+    border: none;
+    background-color: rgb(212, 212, 212);
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 5px;
+}
+.Instruments button{
+    height: 27px;
+    border: none;
+    background-color: rgb(212, 212, 212);
+    box-sizing: border-box;
+
+}
+.Instruments a{
+text-decoration: none;
+color: rgb(74, 75, 74);
+margin: 0;
+
+}
+
+@media screen and (max-width: 917px) {
+.Instruments{
+    padding: 10px;
+}
+  }
+@media screen and (max-width: 434px) {
+.Instruments{
+    flex-direction: column-reverse;
+    align-items: start;
+}
+.Instruments form{
+   width: 100%;
+}
+
+}
+  
+
+@media screen and (max-width: 622px) {
+    .Instruments__logo p {
+       font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Instruments__logo p {
+       font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Instruments__logo p {
+       font-size: 10px;
+    }
+}

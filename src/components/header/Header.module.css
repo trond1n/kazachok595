@@ -1,0 +1,93 @@
+.Header {
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    /* width: 100%; */
+    /* background-image: url(./headerBackground.png); */
+    /* background-size:contain */
+    background: white;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: flex-start;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.Header__logo {
+    display: flex;
+    /* margin: 0 auto;  */
+    /* align-content: flex-start; */
+    align-items: center;
+    max-width: 600px
+}
+
+.Header__logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.Header__logo p {
+    text-align: left;
+    margin: 0;
+    color: rgb(74, 75, 74);
+}
+
+.Header__contacts img{
+    max-width: 100px;
+}
+
+
+
+.Header__contacts p {
+    margin: 0;
+    color: rgb(74, 75, 74);
+
+}
+@media screen and (max-width: 917px) {
+.Header{
+    padding: 10px;
+}
+  }
+@media screen and (max-width: 768px) {
+.Header{
+    flex-direction: column;
+}
+.Header__logo {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.Header__contacts{
+    display: flex;
+    align-items:center;
+    text-align: left;
+    margin: 0;
+}
+.Header__contacts img{
+    max-width: 80px;
+    margin-right: 10px;
+}
+.Header__logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+.Header__contacts p{
+margin: 0 auto;
+
+}
+  }
+
+@media screen and (max-width: 622px) {
+    .Header__logo p {
+       font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Header__logo p {
+       font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Header__logo p {
+       font-size: 10px;
+    }
+}

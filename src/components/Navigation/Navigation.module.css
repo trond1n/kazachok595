@@ -4,17 +4,24 @@
     margin: 0;
     width: 100%;
 
-    background: white;
     justify-content: space-between;
     margin: 0 auto;
     align-content: flex-start;
-    padding: 10px;
+    padding: 30px 100px 0;
     box-sizing: border-box;
+    font-size: 30px;
+    text-decoration: none;
+
+
 }
 
 .Navigation__links ul li a:hover,
 .active {
-    opacity: .7;
+    opacity: .5;
+text-decoration: underline;
+}
+.Navigation__links ul li a{
+    color: white;
 }
 .Navigation__links ul{
     display: flex;

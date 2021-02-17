@@ -1,7 +1,9 @@
+// import { Dropdown } from "bootstrap";
 import React, { Component } from "react";
+// import { SplitButton } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import classes from "./Navigation.module.css";
-
+// import "bootstrap/dist/css/bootstrap.min.css";
 const links = [
   { to: "/", label: "Главная", exact: true },
   { to: "/gallery", label: "Галерея", exact: false },
@@ -30,11 +32,10 @@ class Navigation extends Component {
   render() {
     return (
       <div className={classes.NavLink}>
-      <div className={classes.Navigation__links}>
-        <ul>{this.renderLinks()}</ul>
-        
-      </div>
-      <div className={classes.Navigation__clouds}/>
+        <div className={classes.Navigation__links}>
+          <ul>{this.renderLinks()}</ul>
+        </div>
+      
       </div>
     );
   }

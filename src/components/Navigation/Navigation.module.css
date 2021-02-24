@@ -1,12 +1,12 @@
+
 .Navigation__links {
     display: flex;
     flex-grow: 1;
     margin: 0;
     width: 100%;
-
     justify-content: space-between;
     margin: 0 auto;
-    align-content: flex-start;
+    align-content: center;
     padding: 30px 100px 0;
     box-sizing: border-box;
     font-size: 30px;
@@ -15,10 +15,10 @@
 
 }
 
+
 .Navigation__links ul li a:hover,
 .active {
     opacity: .5;
-text-decoration: underline;
 }
 .Navigation__links ul li a{
     color: white;
@@ -27,6 +27,21 @@ text-decoration: underline;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+    padding: 0;
+    
+}
+.Navigation__links li{
+text-decoration: none;
+list-style: none;
+    
+}
+.Navigation__links li a.active{
+text-decoration: underline;
+list-style: none;
+    
+}
+.Navigation__links ul li a{
+text-decoration: none;
     
 }
 .Navigation__clouds{
@@ -34,4 +49,19 @@ text-decoration: underline;
     width: 100%;
 height: 30px;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .Navigation__links {
+        padding: 30px 10px 0;
+
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .Navigation__links {
+       font-size: 20px;
+
+    }
+
 }

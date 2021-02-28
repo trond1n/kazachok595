@@ -1,0 +1,31 @@
+
+.NewsItem{
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.2);
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black
+
+}
+.NewsItem img{
+    width: 200px;
+    height: 160px;
+       margin-right: 10px;
+       object-fit: cover;
+}
+.NewsItem__container{
+    width: 80%;
+    max-height: 160px;
+    text-align: left;
+}
+.NewsItem__container h1{
+margin: 0;
+}
+.NewsItem__container .date{
+color: grey
+}

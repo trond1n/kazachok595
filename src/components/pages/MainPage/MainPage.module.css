@@ -1,0 +1,10 @@
+.MainPage{
+    margin: auto;
+    width: 100%;
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+.MainPage h1{
+color: white;
+text-align: right;
+}

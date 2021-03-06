@@ -28,19 +28,23 @@ class News extends Component {
   render() {
     return (
       <div className={classes.News}>
-        {this.state.news.map((item, index) => {
-          return (
-            <NavLink to={"/news/" + item.title}>
-              <NewsItem
-                key={index}
-                image={item.pic}
-                date={item.date}
-                title={item.title}
-                text={item.text}
-              />
-            </NavLink>
-          );
-        })}
+
+        <div className={classes.News__list}>
+
+          {this.state.news.map((item, index) => {
+            return (
+              <NavLink to={"/news/" + item.title}>
+                <NewsItem
+                  key={index}
+                  image={item.pic}
+                  date={item.date}
+                  title={item.title}
+                  text={item.text}
+                />
+              </NavLink>
+            );
+          })}
+        </div>
       </div>
     );
   }

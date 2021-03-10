@@ -25,6 +25,7 @@ import FinEcoActivities from "./components/pages/FinEcoActivities/FinEcoActiviti
 import Contacts from "./components/pages/Contacts/Contacts";
 import Vacancies from "./components/pages/Vacancies/Vacancies";
 import CreateNews from "./components/pages/CreateNews/CreateNews";
+import NewsPage from "./components/pages/News/NewsPage/NewsPage";
 
 function App() {
   return (
@@ -57,8 +58,8 @@ function App() {
           <Route path="/vacancies" component={Vacancies} />
           <Route path="/contacts" component={Contacts} />
           <Route path="/news-add" component={CreateNews} />
-          {/* <Route path="/newsCreator" component={NewsC} /> */}
-          <Redirect to="/" />
+          <Route path="/news/:id" component={NewsPage} />
+          {/* <Redirect to="/" /> */}
         </Switch>
 
 

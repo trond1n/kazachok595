@@ -1,7 +1,5 @@
 .Input {
     margin-bottom: 15px;
-    width: 50%;
-    margin: 0 auto
 
 }
 
@@ -12,11 +10,9 @@
     font-weight: bold;
 }
 
-.Input input {
-    display: block;
-    box-sizing: border-box;
+.Input textarea {
+    
     border: 1px solid #bebebe;
-    padding: 7px;
     margin: 0 0 5px;
     width: 100%;
     outline: none;

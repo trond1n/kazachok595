@@ -17,7 +17,7 @@ const Input = (props) => {
   return (
     <div className={cls.join(" ")}>
       <label htmlFor={htmlFor}>{props.label}</label>
-      <input
+      <textarea
         id={htmlFor}
         type={inputType}
         value={props.value}

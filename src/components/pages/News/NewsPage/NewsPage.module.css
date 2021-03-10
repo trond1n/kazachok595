@@ -1,0 +1,44 @@
+.NewsPage {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.2);
+    justify-content: center;
+    text-align: left;
+
+    text-decoration: none;
+    color: black
+}
+
+.NewsPage img {
+    width: 30%;
+    object-fit: cover;
+}
+
+
+.NewsPage__container {
+    margin: 0 15px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.NewsPage__container h1 {
+    margin: 15px 0;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+
+.NewsPage__container .date {
+    width: 100%;
+    font-size: 12px;
+    text-align: right;
+    margin: 5px 0;
+    color: grey
+}

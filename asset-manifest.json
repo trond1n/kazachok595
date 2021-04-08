@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/kazachok595/static/css/main.8ec0cbed.chunk.css",
+    "main.js": "/kazachok595/static/js/main.41594416.chunk.js",
+    "main.js.map": "/kazachok595/static/js/main.41594416.chunk.js.map",
+    "runtime-main.js": "/kazachok595/static/js/runtime-main.379c864a.js",
+    "runtime-main.js.map": "/kazachok595/static/js/runtime-main.379c864a.js.map",
+    "static/css/2.44851d3d.chunk.css": "/kazachok595/static/css/2.44851d3d.chunk.css",
+    "static/js/2.6d730517.chunk.js": "/kazachok595/static/js/2.6d730517.chunk.js",
+    "static/js/2.6d730517.chunk.js.map": "/kazachok595/static/js/2.6d730517.chunk.js.map",
+    "static/js/3.8ff6434b.chunk.js": "/kazachok595/static/js/3.8ff6434b.chunk.js",
+    "static/js/3.8ff6434b.chunk.js.map": "/kazachok595/static/js/3.8ff6434b.chunk.js.map",
+    "index.html": "/kazachok595/index.html",
+    "static/css/2.44851d3d.chunk.css.map": "/kazachok595/static/css/2.44851d3d.chunk.css.map",
+    "static/css/main.8ec0cbed.chunk.css.map": "/kazachok595/static/css/main.8ec0cbed.chunk.css.map",
+    "static/js/2.6d730517.chunk.js.LICENSE.txt": "/kazachok595/static/js/2.6d730517.chunk.js.LICENSE.txt",
+    "static/media/CV2TWYpd-fs.2349c63a.jpg": "/kazachok595/static/media/CV2TWYpd-fs.2349c63a.jpg",
+    "static/media/V4jeDiK-fh4.7f0fd432.jpg": "/kazachok595/static/media/V4jeDiK-fh4.7f0fd432.jpg",
+    "static/media/ahxOyoXkBTI.39ba1cfa.jpg": "/kazachok595/static/media/ahxOyoXkBTI.39ba1cfa.jpg",
+    "static/media/Navigation.module.css": "/kazachok595/static/media/clouds.8ad2316a.png",
+    "static/media/clouds.module.css": "/kazachok595/static/media/cloudsUp.6654a9ee.png",
+    "static/media/Footer.module.css": "/kazachok595/static/media/clouds_footer.6654a9ee.png",
+    "static/media/ix5qaeuUfXU.8ba30e74.jpg": "/kazachok595/static/media/ix5qaeuUfXU.8ba30e74.jpg",
+    "static/media/kazak.28220add.png": "/kazachok595/static/media/kazak.28220add.png",
+    "static/media/logo.66c7d44a.png": "/kazachok595/static/media/logo.66c7d44a.png",
+    "static/media/oBHiOcQe9IY.6891bcf4.jpg": "/kazachok595/static/media/oBHiOcQe9IY.6891bcf4.jpg",
+    "static/media/search-black-18dp.f4215dbc.svg": "/kazachok595/static/media/search-black-18dp.f4215dbc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.379c864a.js",
+    "static/css/2.44851d3d.chunk.css",
+    "static/js/2.6d730517.chunk.js",
+    "static/css/main.8ec0cbed.chunk.css",
+    "static/js/main.41594416.chunk.js"
+  ]
+}
